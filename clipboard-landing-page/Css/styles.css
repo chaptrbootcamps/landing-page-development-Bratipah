@@ -1,12 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
 body{
+    font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
     padding: auto;
     margin: auto;
 }
-.logo{
+.container .logo{
     margin-top: 50px;
-    text-align: center;
-    
+    text-align: center;   
+}
+.logo-title{
+    text-decoration: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    letter-spacing: 3px;
+    font-style:initial;
+    color: black;
+    margin-top: 40px;
+}
+.logo-text{
+    padding: 6px;
+    font-weight: 50;
+    font-size: 16px;
+    color: rgb(141, 136, 136);
 }
