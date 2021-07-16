@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap');
 
 body{
     font-family: 'Ubuntu', sans-serif;
@@ -14,14 +15,93 @@ body{
     text-decoration: black;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 900;
-    letter-spacing: 3px;
     font-style:initial;
     color: black;
     margin-top: 40px;
 }
 .logo-text{
-    padding: 6px;
-    font-weight: 50;
-    font-size: 16px;
-    color: rgb(141, 136, 136);
+    color:rgb(141, 136, 136);
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.downloadbtn{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+
+}
+.col-sm-3{
+    margin: 40px;
+    
+}
+.snippets{
+    display: flex;
+    margin-top: 30px;
+    padding: 50px;
+}
+.button1{
+    border-radius: 30px;
+    background-color: rgb(22, 167, 142);
+    margin-right: 20px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 20px;
+    width: 250px;
+    padding: 10px;
+}
+
+.button1:hover {
+    cursor: pointer;
+    background-color:none;
+    color: white;
+  }
+.button2{
+    border-radius: 30px;
+    background-color: rgb(115, 139, 218);
+    text-align: center;
+    color: whitesmoke;
+    font-size: 20px;
+    width: 250px;
+    padding: 10px;
+}
+
+.track{
+    margin-top: 50px;
+    text-align: center;
+}
+.track-text{
+    color:rgb(141, 136, 136);
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.snippets-title{
+    margin-top: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-style: bold;
+    text-decoration: bold;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.snippets-text{
+    color:rgb(141, 136, 136);
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.access{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    margin: 30px;
+    padding: 5%;
+}
+.devices-img{
+    margin-top: 20px;
+    text-align: center;
+    padding: 5%;
+}
+.workflow{
+    text-align: center;
 }
