@@ -113,3 +113,15 @@ body{
     height: 300px;
     border: none;
 }
+.partners{
+    margin-top: 10%;
+    display: flex;
+
+}
+.partners ul{
+    display: flex;
+}
+.partners li{
+    list-style: none;
+    margin: 5%;
+}
